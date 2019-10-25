@@ -16,6 +16,6 @@ export default (moduleName, err) => {
       `\\$&`
     )}`
   )
-  const firstLine = err.toString().split(`\n`)[0]
+  const firstLine = err.toString().replace(/\\\\/g, '\\').split(`\n`)[0];
   return regex.test(firstLine)
 }
