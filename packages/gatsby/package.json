@@ -1,5 +1,5 @@
 {
-  "name": "gatsby",
+  "name": "@pdftron/gatsby",
   "description": "Blazing fast modern site generator for React",
   "version": "2.17.4",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
